@@ -6,6 +6,7 @@ Quick start
 -----------
 pip instll temporaty_email
 
+```
 t_email = TemporaryEmail()
 print(t_email.get_email_address())
 while True:
@@ -13,3 +14,4 @@ while True:
         content = t_email.get_email_content()
         print(content)
         break
+```
