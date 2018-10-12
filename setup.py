@@ -12,7 +12,7 @@ setup(
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License',  # example license
+    license='MIT License',
     description='A simple way to use temporary email.',
     long_description=README,
     url='https://github.com/tongyongquan/temporary_email',
